@@ -4,8 +4,8 @@ body {
     background-color:#fff;
 }
 
-header {
-    background: url(../tajem/image/bg1.jpg) no-repeat center top / cover; 
+.header {
+    background: url(./image/bg1.jpg) no-repeat center top / cover; 
 }
 
 .container {
@@ -191,7 +191,7 @@ h1 {
 }
 
 .bg2 {
-    background: url(../tajem/image/bg2.jpg) no-repeat center top / cover;
+    background: url(./image/bg2.jpg) no-repeat center top / cover;
 }
 
 .about-video {
@@ -297,7 +297,7 @@ h1 {
 }
 
 .bg3 {
-    background: url(../tajem/image/bg3.jpg) no-repeat center top / cover;
+    background: url(./image/bg3.jpg) no-repeat center top / cover;
 }
 
 .team {
@@ -409,7 +409,7 @@ h1 {
 }
 
 .carusel {
-    background: url(../tajem/image/bg4.jpg) no-repeat center top / cover;
+    background: url(./image/bg4.jpg) no-repeat center top / cover;
 }
 
 .carusel h1 {
@@ -487,7 +487,7 @@ h1 {
 }
 
 footer {
-    background: url(../tajem/image/footer.jpg) no-repeat center top / cover;
+    background: url(./image/footer.jpg) no-repeat center top / cover;
     color: #fff;
 }
 
@@ -603,9 +603,5 @@ footer h1 {
 
 .f-d_botton:hover {
     color: #00e0d0;
-    
-}
-
-.f-d_info {
     
 }
