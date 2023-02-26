@@ -1,0 +1,611 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color:#fff;
+}
+
+header {
+    background: url(../tajem/image/bg1.jpg) no-repeat center top / cover; 
+}
+
+.container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.nav-items {
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 36px;
+    
+}
+
+.logo {
+    margin-top: 15px;
+    width: 130px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    transition: color .2s linear;
+}
+
+.nav-item:hover {
+    color: #00e0d0;
+}
+
+.header {
+
+}
+
+.header-title {
+    font-size: 20px;
+    margin-top: 160px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    transition: color .2s linear;
+    font-family: 'Playfair Display', serif;
+}
+
+.header-title:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    margin: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-item {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.botton {
+    border: 2px solid #00e0d0;
+    padding: 12px;
+    text-align: center;
+    width: 120px;
+    font-size: 16px;
+    margin-bottom: 0;
+    border-radius: 2px;
+}
+
+.first-botton {
+    margin-top: 53px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.botton:hover {
+    background-color: #fff;
+
+}
+
+.botton-item {
+    margin: 0;
+    padding: 0;
+    color: #00e0d0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 127px;
+}
+
+.slide {
+    border: #fff solid 1px;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 70px;
+}
+
+.slide:nth-child(1) {
+    margin-left: auto;
+}
+
+.slide:nth-child(2) {
+    margin-left: 5px;
+}
+
+.slide:nth-child(3) {
+    margin-left: 5px;
+}
+
+.slide:nth-child(4) {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.slide:hover {
+    border: #00e0d0 solid 1px;
+    background: #00e0d0;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: 235px 1fr;
+    /*display: flex;
+    justify-content: space-between;*/
+    margin-top: 70px;
+    align-self: flex-start;
+    margin-bottom: 70px;
+}
+
+.story-title {
+    padding-top: 0;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.story-inner {
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+.story-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stor {
+    margin-bottom: 10px;
+}
+
+.ps {
+    margin-bottom: 15px;
+}
+
+.second-bottom {
+    margin-right: auto;
+}
+
+.story-image {
+    margin: auto;
+}
+
+.bg2 {
+    background: url(../tajem/image/bg2.jpg) no-repeat center top / cover;
+}
+
+.about-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-botton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.about-video:after {
+    display: flex;
+    content: "WATCH OUR STORY";
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 200px;
+    font-size: 16px;
+}
+
+.expertise {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.expertise h1 {
+    text-transform: uppercase;
+}
+
+.expertise-title {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+}
+
+.expertise-title h1 {
+    font-size: 22px;
+}
+
+.expertise-title p {
+    font-size: 14px;
+}
+
+.expertise-title:after {
+    content: " ";
+    width: 50px;
+    height: 2px;
+    background-color: #c6c4c9;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 18px;
+    margin-bottom: 85px;
+}
+
+.expertise-inner {
+    margin-top: 0;
+    margin-left: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 68px;
+}
+
+.expertise-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 30px 40px;
+    height: 180px;
+    border-right: 1px solid #ebebeb;
+}
+
+.down {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.down:nth-child(3n) {
+    border-right: 0;
+}
+
+.right {
+    border-right: 0;
+}
+
+.expertise-item img {
+    order: -1;
+    margin: auto;
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 35px;
+}
+
+.expertise-item h1 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.bg3 {
+    background: url(../tajem/image/bg3.jpg) no-repeat center top / cover;
+}
+
+.team {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.team-title {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.team-title h1 {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.team-title:after {
+    content: " ";
+    display: block;
+    background: #655c80;
+    width: 50px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.team-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.team-item {
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border: #7c7890 solid 1px;
+    margin-bottom: 70px;
+}
+
+.team-item img {
+    margin-bottom: 18px;
+}
+
+.team-item p {
+    margin-bottom: 18px;
+}
+
+.team-footer {
+    color: #fff;
+    text-align: center;
+}
+
+.team-footer .botton {
+    color: #00e0d0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    
+}
+
+
+.allworks {
+    display: flex;
+
+}
+
+.allworks a {
+    text-decoration: none;
+    color: #000;
+}
+
+.allworks img {
+    width: 8px;
+    height: auto;
+    padding-left: 5px;
+}
+
+.works {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+    padding: 0;
+    width: auto;
+}
+
+.oows {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-decoration: none;
+}
+
+.works img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.b-wrks {
+    margin: 70px auto;
+}
+
+.carusel {
+    background: url(../tajem/image/bg4.jpg) no-repeat center top / cover;
+}
+
+.carusel h1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+
+}
+
+
+
+.contact {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact h1 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.contact_form input {
+    width: 80%;
+    margin-bottom: 20px;
+    border: #e5e5e5 1px solid;
+    padding-top: 15px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.f {
+    padding-bottom: 15px;
+}
+
+.contact_text {
+    height: auto;
+    padding-bottom: 160px;
+}
+
+.submit {
+    color: #00e0d0;
+
+}
+
+
+.clients_subject {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.right_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.clients_subject a {
+    margin-bottom: 45px;
+}
+
+.clients_subject a:nth-last-child(){
+    margin: 0;
+}
+
+footer {
+    background: url(../tajem/image/footer.jpg) no-repeat center top / cover;
+    color: #fff;
+}
+
+footer h1 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.footer-left { 
+    font-size: 14px;
+}
+
+.footer-center {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-center h1 {
+    margin-top: 20px;
+    /*margin-bottom: auto;*/
+}
+
+.address {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 15px;
+
+}
+
+.address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.phone {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 15px;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right {
+    margin-top: 20px;
+}
+
+
+.footer-right h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-right input {
+    background: transparent;
+    padding: 15px;
+    outline: none;
+    border: #9e98b0 1px solid;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.subs {
+    display: flex;
+}
+
+.smedia {
+    display: flex;
+    margin-top: 27px;
+}
+
+.smedia_item {
+    width: 35px;
+    height: 35px;
+    border: #fff 1px solid;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.smedia_item img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    font-size: 14px;
+}
+
+.f-d_bottons {
+    margin: 0;
+    text-transform: uppercase;
+    display: flex;
+    
+}
+
+.f-d_botton {
+    margin-right: 35px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: color .2s linear;
+}
+
+.f-d_botton:hover {
+    color: #00e0d0;
+    
+}
+
+.f-d_info {
+    
+}
